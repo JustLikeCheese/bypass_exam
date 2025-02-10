@@ -199,9 +199,7 @@ did=false
 var script = document.createElement('script');
 script.src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 script.onload = function(){
-    if (isMobile()) {
-        inject_floating_ball()
-    }
+  inject_floating_ball()
 }
 document.head.appendChild(script);
 inject_bypass()
